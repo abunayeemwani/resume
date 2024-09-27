@@ -6,308 +6,32 @@
     <title>Resume</title>
     <style>
         body {
-            background-color: black;
             font-family: "Times New Roman", Times, serif;
             margin: 0;
             padding: 0px;
-        }
-
-        .bold {
-            font-weight: bold;
-        }
-
-        .light {
-            color: #444;
+            height: 100%;
         }
 
         .container {
-            background-image: url('./resume_bg.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            width: 100%;
-            /* width: 2480px;
-            height: 3508px; */
-        }
-
-        .header {
-            padding: 30px 60px;
-            width: 700px;
-        }
-
-        .header p {
-            font-size: 80px;
-            margin: 0px
-        }
-
-        .content {
             display: flex;
-            flex-direction: row;
-        }
-
-        .content h2 {
-            font-size: 30px;
-            font-weight: 500;
-            margin: 10px 0px;
-        }
-
-        .title .line {
-            width: 80px;
-            height: 2px;
-            background-color: black;
-        }
-
-        .content span, .content p, .content i {
-            font-size: 18px;
-            line-height: 30px;
-            color: #444;
-        }
-
-        .left-section {
-            width: 33%;
-            /* background-color: green; */
-        }
-
-        .right-section {
-            width: 67%;
-            /* background-color: red; */
-        }
-
-        .inner-container {
-            padding: 0px 50px 0px 60px;
-        }
-
-        .dot {
-            width: 25px;
-            height: 25px;
-            background-color: #e1be3a;
-            border-radius: 50%;
-            margin-right: 10px;
-        }
-
-        .bar {
-            width: 100%;
-            height: 5px;
-            background-color: #E3E3E3;
-        }
-
-        .progress {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             height: 100%;
-            background-color: #E1BE3A;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="section header">
-            <p>ABU NAYEEM WANI</p>
+            <h1>ABU NAYEEM WANI RESUME</h1>
         </div>
 
         <div class="content">
-            <div class="left-section">
-                <div class="inner-container">
-                    <!-- Contact -->
-                    <div>
-                        <div class="title">
-                            <h2>CONTACT</h2>
-                            <div class="line"></div>
-                        </div>
-                        <div class="content" style="margin-top: 10px; align-items: center;">
-                            <div class="dot"></div>
-                            <span class="light">zshnwani@gmail.com</span>
-                        </div>
-
-                        <div class="content" style="margin-top: 10px; align-items: center;">
-                            <div class="dot"></div>
-                            <span class="light">+91 7006656521</span>
-                        </div>
-
-                        <div class="content" style="margin-top: 10px; align-items: center;">
-                            <div class="dot"></div>
-                            <span class="light">Srinagar, India 192303</span>
-                        </div>
-
-                        <div class="content" style="margin-top: 10px; align-items: center;">
-                            <div class="dot"></div>
-                            <span class="light"><a class="light" style="text-decoration: none;" href="https://www.linkedin.com/in/abu-nayeem-wani-8b6479148/">LinkedIn Profile</a></span>
-                        </div>
-                    </div>
-
-                    <!-- Education -->
-                    <div style="margin-top: 60px;">
-                        <div class="title">
-                            <h2>EDUCATION</h2>
-                            <div class="line"></div>
-                        </div>
-                        <br>
-                        <i>01/2021</i>
-                        <p class="bold" style="margin: 0px;">BE in Electronics And Communication</p>
-                        <p>Model Institute of Engineering And Technologies, Jammu</p>
-                    </div>
-
-                    <!-- Certification -->
-                    <div style="margin-top: 60px;">
-                        <div class="title">
-                            <h2>CERTIFICATION</h2>
-                            <div class="line"></div>
-                        </div>
-                        
-                        <ul>
-                            <li style="margin-bottom: 5px;"><span class="bold">Machine Learning with Python</span><br><i style="font-size: 14px;">(03/2024 - 04/2022) IBM</i></li>
-                            <li style="margin-bottom: 5px;"><span class="bold">Machine Learning Introduction for Everyone</span><br><i style="font-size: 14px;">(04/2022 - 05/2022) IBM</i></li>
-                            <li style="margin-bottom: 5px;"><span class="bold">Generative AI: Introduction and Applications</span><br><i style="font-size: 14px;">(04/2022 - 05/2022) IBM</i></li>
-                            <li style="margin-bottom: 5px;"><span class="bold">Introduction to Computer Vision and Image Processing</span><br><i style="font-size: 14px;">(05/2022 - 06/2022) IBM</i></li>
-                            <li style="margin-bottom: 5px;"><span class="bold">Cricket Analytics Workshop</span><br><i style="font-size: 14px;">(06/2024) Mad About Sports (Rajasthan Royals)</i></li>
-                        </ul>
-                    </div>
-
-                    <!-- Languages -->
-                    <div style="margin-top: 60px;">
-                        <div class="title">
-                            <h2>LANGUAGES</h2>
-                            <div class="line"></div>
-                        </div>
-
-                        <div class="content light" style="margin-top: 10px; align-items: center;">
-                            <span class="bold">Kashmiri: </span>
-                            <span>First Language</span>
-                        </div>
-                        
-                        <div class="content light" style="margin-top: 10px; align-items: center; justify-content: space-between;">
-                            <span class="bold">English:</span>
-                            <span class="bold">B2</span>
-                        </div>
-                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
-                        <span class="light" style="font-size: 14px;">Upper Intermediate (B2)</span>
-
-                        <div class="content light" style="margin-top: 10px; align-items: center; justify-content: space-between;">
-                            <span class="bold">Hindi:</span>
-                            <span class="bold">B2</span>
-                        </div>
-                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
-                        <span class="light" style="font-size: 14px;">Upper Intermediate (B2)</span>
-                    </div>
-
-                    <!-- Interests -->
-                    <div style="margin-top: 60px;">
-                        <div class="title">
-                            <h2>INTERESTS</h2>
-                            <div class="line"></div>
-                        </div>
-
-                        <ul class="light">
-                            <li><span>Programming</span></li>
-                            <li><span>Cricket</span></li>
-                            <li><span>Reading Books</span></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="right-section">
-                <div class="inner-container">
-
-                    <!-- Summery -->
-                    <div>
-                        <div class="title">
-                            <h2>SUMMARY</h2>
-                            <div class="line"></div>
-                        </div>
-                        <p class="light">Well-qualified Full Stack Developer familiar with wide range of programming utilities and languages like Python, TensorFlow, Machine Learning, Django and React. Knowledgeable of backend (Python Developer) and frontend (React Developer) development. Handles any part of process with ease. Collaborative team player with excellent technical abilities offering around 2 years of related experience.</p>
-                    </div>
-
-                    <!-- Skills -->
-                    <div style="margin-top: 40px;">
-                        <div class="title">
-                            <h2>SKILLS</h2>
-                            <div class="line"></div>
-                        </div>
-                        
-                        <div class="content">
-                            <ul style="width: 50%;">
-                                <li style="margin-bottom: 10px;"><span>Python</span></li>
-                                <li style="margin-bottom: 10px;"><span>Machine Learning</span></li>
-                                <li style="margin-bottom: 10px;"><span>Pandas</span></li>
-                                <li style="margin-bottom: 10px;"><span>NLP</span></li>
-                                <li style="margin-bottom: 10px;"><span>Scikit Learn</span></li>
-                                <li style="margin-bottom: 10px;"><span>TensorFlow</span></li>
-                            </ul>
-
-                            <ul style="width: 50%;">
-                                <li style="margin-bottom: 10px;"><span>Django</span></li>
-                                <li style="margin-bottom: 10px;"><span>React</span></li>
-                                <li style="margin-bottom: 10px;"><span>MySQL</span></li>
-                                <li style="margin-bottom: 10px;"><span>HTML</span></li>
-                                <li style="margin-bottom: 10px;"><span>CSS</span></li>
-                                <li style="margin-bottom: 10px;"><span>Git</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Experience -->
-                    <div style="margin-top: 20px;">
-                        <div class="title" style="margin-bottom: 20px;">
-                            <h2>EXPERIENCE</h2>
-                            <div class="line"></div>
-                        </div>
-
-                        <span class="bold">Project Research Assistant</span><br>
-                        <span><span class="bold">IIT Bombay</span> | Mumbai, India</span>
-                        
-                        <div class="content" style="margin-top: 10px;">
-                            <span style="width: 20%;">(05/2022 - 03/2024)</span>
-
-                            <!-- <ul style="margin-left: 30px;"> -->
-                            <ul style="width: 80%;">
-                                <li style="margin-bottom: 5px;"><span>Developed and maintained robust <strong>APIs</strong> using <strong>Python</strong> and <strong>Django REST framework,</strong> ensuring efficient data processing and server-side logic implementation.</span></li>
-                                <li style="margin-bottom: 5px;"><span>Contributed significantly to various frontend projects, leveraging <strong>React</strong> to create responsive and user-friendly interfaces.</span></li>
-                                <li style="margin-bottom: 5px;"><span>Collaborated within multidisciplinary teams to deliver high quality software solutions, actively participating in project planning, design, and implementation phases.</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Projects -->
-                    <div>
-                        <div class="title">
-                            <h2>PERSONAL PROJECTS</h2>
-                            <div class="line"></div>
-                        </div>
-                        
-                        <ul>
-                            <li style="margin-top: 10px;">
-                                <span><strong>Iris Classification:</strong></span><br>
-                                <span>The Iris Classification project leverages machine learning techniques to classify iris flowers into three distinct species: Setosa, Versicolor, and Virginica.</span><br>
-                                <span><strong>Tools:</strong> Python, Machine Learning, scikit-learn, Numpy, Pandas.</span><br>
-                                <span><strong>Link:</strong> <a class="light" style="text-decoration: none;" href="https://github.com/abunayeemwani/iris-classification">https://github.com/abunayeemwani/iris-classification</a></span><br>
-                            </li>
-                            <li style="margin-top: 10px;">
-                                <span><strong>Dream Team Predictor:</strong></span><br>
-                                <span>The Dream Team Predictor project leverages machine learning to select the optimal team lineup based on various performance metrics and historical data.</span><br>
-                                <span><strong>Tools:</strong> Python, Machine Learning, scikit-learn, Numpy, Pandas.</span><br>
-                                <span><strong>Link:</strong> <a class="light" style="text-decoration: none;" href="https://github.com/abunayeemwani/Fantasy-Predictor">https://github.com/abunayeemwani/Fantasy-Predictor</a></span><br>
-                            </li>
-                            <li style="margin-top: 10px;">
-                                <span><strong>Score Predictor:</strong></span><br>
-                                <span>Developed an intelligent Chat Bot utilizing machine learning techniques to understand and respond to user queries in natural language.</span><br>
-                                <span><strong>Tools:</strong> Python, Machine Learning, scikit-learn, Numpy, Pandas.</span><br>
-                                <span><strong>Link:</strong> <a class="light" style="text-decoration: none;" href="https://score-predictor-abu-nayeem.streamlit.app/">https://score-predictor-abu-nayeem.streamlit.app/</a></span><br>
-                            </li>
-                            <li style="margin-top: 10px;">
-                                <span><strong>Mail Spam Detector:</strong></span><br>
-                                <span>Developed a machine learning model to identify and filter out spam emails from legitimate ones. </span><br>
-                                <span><strong>Tools:</strong> Python, Machine Learning, scikit-learn, Numpy, Pandas.</span><br>
-                                <span><strong>Link:</strong> <a class="light" style="text-decoration: none;" href="https://emaildetector.streamlit.app/">https://emaildetector.streamlit.app/</a></span><br>
-                            </li>
-                            <li style="margin-top: 10px;">
-                                <span><strong>Movie Recommender:</strong></span><br>
-                                <span>Developed a Movie Recommender System using machine learning techniques to provide personalized movie suggestions based on user preferences and behavior.</span><br>
-                                <span><strong>Tools:</strong> Python, Machine Learning, Scikit-Learn.</span><br>
-                                <span><strong>Link:</strong> <a class="light" style="text-decoration: none;" href="https://movie-recomender-abu-nayeem.streamlit.app/">https://movie-recomender-abu-nayeem.streamlit.app/</a></span><br>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            <ul>
+                <li><a href="ml.html">Machine Learning Resume</a></li>
+                <li><a href="full_stack.html">Full Stack Resume</a></li>
+            </ul>
         </div>
     </div>
 </body>
