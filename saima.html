@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0px;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .light {
+            color: #444;
+        }
+
+        .container {
+            background-image: url('./resume_bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            /* width: 2480px;
+            height: 3508px; */
+        }
+
+        .header {
+            padding: 30px 60px;
+            width: 700px;
+        }
+
+        .header p {
+            font-size: 80px;
+            margin: 0px
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .content h2 {
+            font-size: 30px;
+            font-weight: 500;
+            margin: 10px 0px;
+        }
+
+        .title .line {
+            width: 80px;
+            height: 2px;
+            background-color: black;
+        }
+
+        .content span, .content p, .content i {
+            font-size: 18px;
+            line-height: 30px;
+            color: #444;
+        }
+
+        .left-section {
+            width: 33%;
+            /* background-color: green; */
+        }
+
+        .right-section {
+            width: 67%;
+            /* background-color: red; */
+        }
+
+        .inner-container {
+            padding: 0px 50px 0px 60px;
+        }
+
+        .dot {
+            width: 25px;
+            height: 25px;
+            background-color: #e1be3a;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .bar {
+            width: 100%;
+            height: 5px;
+            background-color: #E3E3E3;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #E1BE3A;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <br /><br />
+        <div class="section header">
+            <p>Saima Iqbal</p>
+        </div>
+        <br /><br />
+
+        <div class="content">
+            <div class="left-section">
+                <div class="inner-container">
+                    <!-- Contact -->
+                    <div>
+                        <div class="title">
+                            <h2>CONTACT</h2>
+                            <div class="line"></div>
+                        </div>
+                        <div class="content" style="margin-top: 10px; align-items: center;">
+                            <div class="dot"></div>
+                            <span class="light">saimabintiiqbal@gmail.com</span>
+                        </div>
+
+                        <div class="content" style="margin-top: 10px; align-items: center;">
+                            <div class="dot"></div>
+                            <span class="light">+91 6006705833</span>
+                        </div>
+
+                        <div class="content" style="margin-top: 10px; align-items: center;">
+                            <div class="dot"></div>
+                            <span class="light">Shopian, India 192303</span>
+                        </div>
+
+                        <div class="content" style="margin-top: 10px; align-items: center;">
+                            <div class="dot"></div>
+                            <span class="light"><a class="light" style="text-decoration: none;" href="https://www.linkedin.com/in/abu-nayeem-wani-8b6479148/">LinkedIn Profile</a></span>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>EDUCATION</h2>
+                            <div class="line"></div>
+                        </div>
+                        <br>
+                        <i>11/2024</i>
+                        <p class="bold" style="margin: 0px;">Post Basic B.Sc Nursing</p>
+                        <p>Ramzaan College of Nursing and Para Medical Science, Gallander Pampore</p>
+                        <br>
+                        <i>08/2021</i>
+                        <p class="bold" style="margin: 0px;">General Nursing and Midwifery</p>
+                        <p>Ramzaan College of Nursing and Para Medical Science, Gallander Pampore</p>
+                    </div>
+
+                    <!-- Certification -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>CERTIFICATION</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <ul>
+                            <li style="margin-bottom: 5px;"><span class="bold">Mid-Level Health Provider (MLHP)</span><br><i style="font-size: 14px;">(0605/2024 - 09/2024) Ramzaan College</i></li>
+                        </ul>
+                    </div>
+
+                    <!-- Languages -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>LANGUAGES</h2>
+                            <div class="line"></div>
+                        </div>
+
+                        <div class="content light" style="margin-top: 10px; align-items: center;">
+                            <span class="bold">Kashmiri: </span>
+                            <span>First Language</span>
+                        </div>
+                        
+                        <div class="content light" style="margin-top: 10px; align-items: center; justify-content: space-between;">
+                            <span class="bold">English:</span>
+                            <span class="bold">B2</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+                        <span class="light" style="font-size: 14px;">Upper Intermediate (B2)</span>
+
+                        <div class="content light" style="margin-top: 10px; align-items: center; justify-content: space-between;">
+                            <span class="bold">Hindi:</span>
+                            <span class="bold">B2</span>
+                        </div>
+                        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+                        <span class="light" style="font-size: 14px;">Upper Intermediate (B2)</span>
+                    </div>
+
+                    <!-- Interests -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>INTERESTS</h2>
+                            <div class="line"></div>
+                        </div>
+
+                        <ul class="light">
+                            <li><span>Photography</span></li>
+                            <li><span>Table Tennis</span></li>
+                            <li><span>Reading Books</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="inner-container">
+
+                    <!-- Summery -->
+                    <div>
+                        <div class="title">
+                            <h2>SUMMARY</h2>
+                            <div class="line"></div>
+                        </div>
+                        <p class="light">Compassionate and dedicated nursing graduate with a strong foundation in patient care, medical procedures, and healthcare ethics. Equipped with knowledge in administering medications, assisting in patient monitoring, and providing emotional support to patients and families. Familiar with electronic health records (EHR) systems and basic clinical tasks. Eager to contribute to a healthcare team and committed to delivering high-quality care. Ready to apply academic knowledge in a practical setting as a motivated and collaborative team player.</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div style="margin-top: 40px;">
+                        <div class="title">
+                            <h2>SKILLS</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <div class="content">
+                            <ul style="width: 50%;">
+                                <li style="margin-bottom: 10px;"><span>Patient Care</span></li>
+                                <li style="margin-bottom: 10px;"><span>Medication Administration</span></li>
+                                <li style="margin-bottom: 10px;"><span>Wound Care and Dressing</span></li>
+                                <li style="margin-bottom: 10px;"><span>Infection Control</span></li>
+                            </ul>
+
+                            <ul style="width: 50%;">
+                                <li style="margin-bottom: 10px;"><span>Care Planning</span></li>
+                                <li style="margin-bottom: 10px;"><span>Teamwork</span></li>
+                                <li style="margin-bottom: 10px;"><span>Problem-Solving</span></li>
+                                <li style="margin-bottom: 10px;"><span>Critical Thinking</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- Internship -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>INTERNSHIP AND TRAINING</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <ul>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Government Lala Ded Hospital Srinagar:</strong></span><br>
+                                <span>I worked in LD Hospital for 3 Months learning the nuances of responsibilities and diligence required in Post Operative, Surgery, Labour room, OPD & Emergency.</span><br>
+                            </li>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Government Sub-District Hospital Keller:</strong></span><br>
+                                <span>I trained in this hospital for 1 month during my degree to gain hands on experience on the skills acquired in class.</span><br>
+                            </li>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Ramzaan Hospital Srinagar:</strong></span><br>
+                                <span>Completed comprehensive nursing training with hands-on experience in patient care, vital signs monitoring, medication administration, and wound care.</span><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Research -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>RESEARCH</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <ul>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Ill effects of cigerette smoking:</strong></span><br>
+                                <span>Pre experimental study to assess the effectiveness of structured teaching programme on knowledge regarding ill effects of cigerette smoking among adolescents of Srinagar International School, Gallander Pampore.</span><br>
+                            </li>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Health Hazards of Smartphone Addiction:</strong></span><br>
+                                <span>A pre-experimental to assess the effectivenes of structured teaching program on knowledge regarding health hazards of smartphone addiction.</span><br>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Accomplishments -->
+                    <div style="margin-top: 60px;">
+                        <div class="title">
+                            <h2>ACCOMPLISHMENTS</h2>
+                            <div class="line"></div>
+                        </div>
+                        
+                        <ul>
+                            <li style="margin-top: 10px;">
+                                <span><strong>Won Intra College Quiz Competition.</strong></span><br>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
